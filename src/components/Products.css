@@ -1,0 +1,35 @@
+/* Products component styles */
+.big {
+  background-color: #ede6e6; /* Dark background color */
+  color: rgb(74, 71, 71); /* Text color */
+ padding: 25px;
+  display: flex; /* Add display flex to align items horizontally */
+  flex-wrap: wrap; /* Allow items to wrap to the next line */
+  gap: 10px;
+  justify-content: center;/* Add some spacing between items */
+}
+
+.big1{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  height: auto;
+  width: 270px;
+  justify-content:center;
+  text-align: center;
+  align-items: center;
+  border: 2px solid rgb(100, 66, 22);
+  border-radius: 10px;
+}
+.big img {
+  padding: 30px;
+  max-width:200px;
+  height:240px;
+  transition: transform 0.3s ease-in-out; /* Add a transition for the hover effect */
+}
+
+.big img:hover {
+  transform: scale(1.1); /* Example: Scale up image on hover */
+}
+
+  
